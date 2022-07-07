@@ -1,13 +1,15 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 import PersonCard from './components/PersonCard';
 
 const people = [
   {"firstName": "Jane", "lastName": "Doe", "age": 45, "hairColor": "Black"},
-  {"firstName": "Kevin", "lastName": "Bacon", "age": 22, "hairColor": "Red"},
-  {"firstName": "Amber", "lastName": "Heard", "age": 45, "hairColor": "Poop-Brown"},
-  {"firstName": "Carol", "lastName": "Baskin", "age": 32, "hairColor": "Blonde"}
+  {"firstName": "John", "lastName": "Smith", "age": 88, "hairColor": "Brown"},
+  {"firstName": "Millard", "lastName": "Fillmore", "age": 50, "hairColor": "Brown"},
+  {"firstName": "Maria", "lastName": "Smith", "age": 62, "hairColor": "Brown"}
 ]
 
 function App() {
